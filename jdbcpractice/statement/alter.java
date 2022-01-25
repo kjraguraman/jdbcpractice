@@ -18,7 +18,7 @@ public class alter {
             stmt.close();
             con.close();
         } catch (Exception e) {
-            System.out.println("Insertion failed");
+            System.out.println("Alter failed");
             e.printStackTrace();
         }
     }
