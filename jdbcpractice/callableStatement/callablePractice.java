@@ -21,7 +21,7 @@ public class callablePractice {
             stmt.close();
             con.close();
         } catch (Exception e) {
-            System.out.println("Insertion failed");
+            System.out.println("Failed");
             e.printStackTrace();
         }
     }
